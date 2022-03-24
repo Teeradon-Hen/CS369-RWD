@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/img/logo.png" />
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- ===== slick slider CSS ===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- booststrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--star-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>Fresh Foam Roav v2 - New Balance</title>
+</head>
+
+<body>
+
+    <!--===== HEADER =====-->
+    <header class="header-1" id="header">
+        <nav class="nav bd-grid">
+    
+            <a href="./index.html">
+                <img src="https://www.newbalance.com/on/demandware.static/-/Library-Sites-NBUS-NBCA/default/dw3de6aa04/images/homepage/footer/logo.svg"
+                    style="width: 50px;height: 50px;">
+            </a>
+    
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">New</a></li>
+                    <li class="nav__item"><a href="#feature" class="nav__link">Men</a></li>
+                    <li class="nav__item"><a href="#women" class="nav__link">Women</a></li>
+                    <li class="nav__item"><a href="#men" class="nav__link">Kid</a></li>
+                </ul>
+            </div>
+    
+            <div style="align-items: center;display:flex;justify-content: space-between; margin-left: 50px;">
+                <input type="search" placeholder="Search" style="padding: 5px;">
+                <i class='bx bx-user marginleft hide'></i>
+                <a href="#" class="marginleft hide">Login</a>
+                <p class="mg-3 hide">|</p>
+                <a href="#" class="marginleft hide">Join</a>
+                <i class='bx bx-cart-alt marginleft'></i>
+                <div class="nav__toggle" id="nav-toggle" onclick="toggle()">
+                  <button class="menu marginleft" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
+                    <svg width="40" height="40" viewBox="0 0 100 100">
+                      <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                      <path class="line line2" d="M 20,50 H 80" />
+                      <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                    </svg>
+          
+                </div>
+            </div>
+    
+        </nav>
+    </header>
+
+    <!--nav-->
+    <div class="product-nav">
+        <span class="product-category underline">Women</span>
+        <span class="product-category">/</span>
+        <apan class="product-category underline">Shoes</apan>
+        <span class="product-category">/</span>
+        <span class="product-category underline"><b>Running</b></span>
+    </div>
+    <!--Product-->
+    <div class="product-box">
+
+        <div id="product" class="product-slick">
+            <div class="item">
+                <img class="responsiveimg-h"
+                    src="https://nb.scene7.com/is/image/NB/wroavlk2_nb_02_i?$pdpflexf2MD$&fmt=webp&wid=513&hei=513"></img>
+            </div>
+            <div class="item">
+                <img class="responsiveimg-h"
+                    src="https://nb.scene7.com/is/image/NB/wroavlk2_nb_04_i?$pdpflexf2MD$&fmt=webp&wid=513&hei=513"></img>
+            </div>
+            <div class="item">
+                <img class="responsiveimg-h"
+                    src="https://nb.scene7.com/is/image/NB/wroavlk2_nb_03_i?$pdpflexf2MD$&fmt=webp&wid=513&hei=513"></img>
+            </div>
+            <div class="item">
+                <img class="responsiveimg-h"
+                    src="https://nb.scene7.com/is/image/NB/wroavlk2_nb_05_i?$pdpflexf2MD$&fmt=webp&wid=513&hei=513"></img>
+            </div>
+            <div class="item">
+                <img class="responsiveimg-h"
+                    src="https://nb.scene7.com/is/image/NB/wroavlk2_nb_06_i?$pdpflexf2MD$&fmt=webp&wid=513&hei=513"></img>
+            </div>
+        </div>
+        <!--info-->
+        <div class="container" style="padding-right: 15px;">
+            <div class="row">
+                <div class="col">
+                    <h1 class="product-name" style="font-size: 1.25rem;">Fresh Foam Roav v2</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h3 class="product-category"> Women's</h3>
+                </div>
+                <div class="col">
+                    <h3 class="product-price" align="right"> $84.99</h3>
+                </div>
+            </div>
+
+            <div class="row" style="padding-top: 15px;">
+                <div class="col">
+                    <p class="product-category"><b>Color: </b>Black with sea salt</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col" style="padding-left: 30px;">
+                    <img class="box-style" alt="WROAVLG2" onclick="Selected(event, 'box-style')"
+                        src="https://nb.scene7.com/is/image/NB/wroavlg2_nb_02_i?$pdpflexf2$&fmt=webp&wid=472&hei=472" />
+                    <img class="box-style active" alt="WROAVLG2" onclick="Selected(event, 'box-style')"
+                        src="https://nb.scene7.com/is/image/NB/wroavlk2_nb_02_i?$pdpflexf2SM$&fmt=webp&wid=363&hei=363" />
+                    <img class="box-style" alt="WROAVLG2" onclick="Selected(event, 'box-style')"
+                        src="https://nb.scene7.com/is/image/NB/wroavbc2_nb_02_i?$pdpflexf2SM$&fmt=webp&wid=363&hei=363" />
+                    <img class="box-style" alt="WROAVLG2" onclick="Selected(event, 'box-style')"
+                        src="https://nb.scene7.com/is/image/NB/wroavsk2_nb_02_i?$dw_detail_main_lg$&bgc=f1f1f1&layer=1&bgcolor=f1f1f1&blendMode=mult&scale=10&wid=1600&hei=1600" />
+                    <img class="box-style" alt="WROAVLG2" onclick="Selected(event, 'box-style')"
+                        src="https://nb.scene7.com/is/image/NB/wroavss2_nb_02_i?$pdpflexf2$&fmt=webp&wid=472&hei=472" />
+                    <img class="box-style" alt="WROAVLG2" onclick="Selected(event, 'box-style')"
+                        src="https://nb.scene7.com/is/image/NB/wroavsw2_nb_02_i?$pdpflexf2$&fmt=webp&wid=472&hei=472" />
+                    <img class="box-style" alt="WROAVLG2" onclick="Selected(event, 'box-style')"
+                        src="https://nb.scene7.com/is/image/NB/wroavsb2_nb_02_i?$pdpflexf2$&fmt=webp&wid=472&hei=472" />
+                    <img class="box-style" alt="WROAVLG2" onclick="Selected(event, 'box-style')"
+                        src="https://nb.scene7.com/is/image/NB/wroavso2_nb_02_i?$pdpflexf2$&fmt=webp&wid=472&hei=472" />
+                    <img class="box-style" alt="WROAVLG2" onclick="Selected(event, 'box-style')"
+                        src="https://nb.scene7.com/is/image/NB/wroavmw2_nb_02_i?$pdpflexf2$&fmt=webp&wid=472&hei=472" />
+                </div>
+            </div>
+
+            <div class="row" style="padding-top: 15px;">
+                <div class="col">
+                    <p class="product-category"><b>Select size</b></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col" style="padding-left: 30px;">
+                    <button class="btn-lg disable" disabled>5</button>
+                    <button class="btn-lg disable" disabled>5.5</button>
+                    <button class="btn-lg" onclick="Selected(event, 'btn-lg')">6</button>
+                    <button class="btn-lg" onclick="Selected(event, 'btn-lg')">6.5</button>
+                    <button class="btn-lg" onclick="Selected(event, 'btn-lg')">7</button>
+                    <button class="btn-lg" onclick="Selected(event, 'btn-lg')">7.5</button>
+                    <button class="btn-lg disable" disabled>8</button>
+                    <button class="btn-lg" onclick="Selected(event, 'btn-lg')">8.5</button>
+                    <button class="btn-lg" onclick="Selected(event, 'btn-lg')">9</button>
+                    <button class="btn-lg" onclick="Selected(event, 'btn-lg')">9.5</button>
+                    <button class="btn-lg" onclick="Selected(event, 'btn-lg')">10</button>
+                    <button class="btn-lg" onclick="Selected(event, 'btn-lg')">10.5</button>
+                    <button class="btn-lg" onclick="Selected(event, 'btn-lg')">11</button>
+                    <button class="btn-lg" onclick="Selected(event, 'btn-lg')">12</button>
+                </div>
+            </div>
+
+            <div class="row" style="padding-top: 15px;">
+                <div class="col">
+                    <p class="product-category"><b>Select width</b></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-w" style="padding-left: 30px;">
+                    <button class="btn-lg-1" onclick="Selected(event, 'btn-lg-1')">Standard</button>
+                    <button class="btn-lg-1" onclick="Selected(event, 'btn-lg-1')">Wide</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col" style="padding-left: 30px;">
+                    <button class="cart-button">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col" style="padding-left: 30px;">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span>163 Reviews</span>
+                    <span>(</span>
+                    <span class="underline">see all reviews</span>
+                    <span>)</span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <i class="fa fa-heart" id="heart"></i>
+                    <span> Add to Favorite</span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="product-description">
+                        <p>Whether you're hitting the gym or the streets,
+                            take your sporty style to a new level with the performance-driven
+                            Fresh Foam Roav v2 women's sneaker.
+                            The bold colors will add drive to your step,
+                            with breathable synthetic and mesh materials to keep you comfortable all day long.
+                            Fresh Foam midsole cushioning and rubber outsole pods
+                            are soft and plush to help you go the distance.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col" style="padding-left: 30px;">
+                    <div class="accordion" id="accordionDetail">
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Product Detail
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                            data-parent="#accordionDetail">
+                            <div class="card-body">
+                                <div class="product-detail">
+                                    <div><span>Style #: WROAVLG2</span></div>
+                                    <div><span>Weight: 201 grams (7.1 oz)</span></div>
+                                    <ul class="detail">
+                                        <li>Ground Contact Fresh Foam midsole cushioning with rubber outsole
+                                            pods delivers an ultra-cushioned, lightweight ride while
+                                            providing abrasion resistance where needed</li>
+                                        <li>Stylish knit upper with leather details</li>
+                                        <li>Supportive heel pillows for all-day wear</li>
+                                        <li>Lace closure for an adjustable, secure fit</li>
+                                        <li>8 mm drop; due to variances created during the development and manufacturing
+                                            processes, all references to 8 mm drop are approximate</li>
+                                        <li>Casual colors from the NB Knit Pack</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="flex-container">
+        <div class="flex-item-left">
+            <img class="responsiveimg-w"
+                src="https://www.newbalance.com/dw/image/v2/AAGI_PRD/on/demandware.static/-/Library-Sites-NBUS-NBCA/default/dw97ff284b/images/page-designer/2022/january/13521_Comp_E2_Image1.jpg?sw=991&sfrm=jpg">
+            <div class="section-1">
+                <h5>Cloudlike comfort</h5>
+                <p>Ground contact Fresh Foam midsole provides an extra soft, lightweight ride
+                    and features minimal rubber pods on the outsole for added durability in high wear areas.</p>
+            </div>
+        </div>
+        <div class="flex-item-right">
+            <img class="responsiveimg-w"
+                src="https://www.newbalance.com/dw/image/v2/AAGI_PRD/on/demandware.static/-/Library-Sites-NBUS-NBCA/default/dw3cfcd230/images/page-designer/2022/january/13521_Comp_E2_Image2.jpg?sw=991&sfrm=jpg">
+            <div class="section-1">
+                <h5>Designed for everyday</h5>
+                <p>The textured knit upper, sleek heel with plush padding, raised logo and
+                    leather details give the Fresh Foam Roav v2 Knit a premium look and feel that’s
+                    still practical enough to wear every day, everywhere.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex-container">
+        <div class="flex-item-left">
+            <img class="responsiveimg-w"
+                src="https://www.newbalance.com/dw/image/v2/AAGI_PRD/on/demandware.static/-/Library-Sites-NBUS-NBCA/default/dw4b910eba/images/page-designer/2021/december_2/13367_Comp_K_Image_860.jpg">
+        </div>
+        <div class="flex-item-right">
+            <div class="section-1 middle">
+                <h1>What is Fresh Foam?</h1>
+                <div class="red-line-2"></div>
+                <p>Fresh Foam represents a revolutionary advancement in the material that
+                    cushions the high impact foot strikes that occur on roads, tracks, courts,
+                    and fields everywhere. Offering a pinnacle experience across the widest population
+                    of users, Fresh Foam is softness quantified.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="another-slick">
+        <div class="title-slick">
+            <h5>Wear it with</h5>
+        </div>
+        <!--Slider-->
+        <div class="slider-box">
+            <div class="slider">
+
+                <div class="item">
+                    <img class="responsiveimg-h"
+                        src="https://nb.scene7.com/is/image/NB/wt13562siy_nb_70_i?$pdpflexf2$&wid=464&hei=464">
+                    <div class="product-info">
+                        <div class="product-left">
+                            <span class="product-name">NB Athletics Crew</span>
+                            <p class="product-category">Women's</p>
+                        </div>
+                        <div>
+                            <span class="product-price">$69.99</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img class="responsiveimg-h"
+                        src="https://nb.scene7.com/is/image/NB/wp13555siy_nb_70_i?$pdpflexf2$&wid=464&hei=464">
+                    <div class="product-info">
+                        <div class="product-left">
+                            <span class="product-name">NB Athletics Sweatpant</span>
+                            <p class="product-category">Women's</p>
+                        </div>
+                        <div>
+                            <span class="product-price">$69.99</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img class="responsiveimg-h"
+                        src="https://nb.scene7.com/is/image/NB/wt13556bk_nb_70_i?$pdpflexf2$&wid=464&hei=464">
+                    <div class="product-info">
+                        <div class="product-left">
+                            <span class="product-name">NB Essentials NBX Hoodie</span>
+                            <p class="product-category">Women's</p>
+                        </div>
+                        <div>
+                            <span class="product-price">$47.99</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img class="responsiveimg-h"
+                        src="https://nb.scene7.com/is/image/NB/wp13553bk_nb_70_i?$pdpflexf2$&wid=464&hei=464">
+                    <div class="product-info">
+                        <div class="product-left">
+                            <span class="product-name">NB Essentials NBX Legging</span>
+                            <p class="product-category">Women's</p>
+                        </div>
+                        <div>
+                            <span class="product-price">$36.99</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img class="responsiveimg-h"
+                        src="https://nb.scene7.com/is/image/NB/wt03550ag_nb_70_i?$pdpflexf2$&wid=464&hei=464">
+                    <div class="product-info">
+                        <div class="product-left">
+                            <span class="product-name">NB Pullover Hoodie</span>
+                            <p class="product-category">Women's</p>
+                        </div>
+                        <div>
+                            <span class="product-price">$44.99</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="another-slick">
+        <div class="title-slick">
+            <h5>You May Also Like</h5>
+        </div>
+        <!--Slider-->
+        <div class="slider-box">
+            <div class="slider">
+
+                <div class="item">
+                    <img class="responsiveimg-h"
+                        src="https://nb.scene7.com/is/image/NB/wroavbc2_nb_02_i?$pdpflexf2$&wid=464&hei=464">
+                    <div class="product-info">
+                        <div class="product-left">
+                            <span class="product-name">Fresh Foam Roav v2</span>
+                            <p class="product-category">Women's</p>
+                        </div>
+                        <div>
+                            <span class="product-price">$84.99</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img class="responsiveimg-h"
+                        src="https://nb.scene7.com/is/image/NB/w860m12_nb_02_i?$pdpflexf2$&wid=464&hei=464">
+                    <div class="product-info">
+                        <div class="product-left">
+                            <span class="product-name">Fresh Foam X 860v12</span>
+                            <p class="product-category">Women's</p>
+                        </div>
+                        <div>
+                            <span class="product-price">$134.99</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img class="responsiveimg-h"
+                        src="https://nb.scene7.com/is/image/NB/w680lk7_nb_02_i?$pdpflexf2$&wid=464&hei=464">
+                    <div class="product-info">
+                        <div class="product-left">
+                            <span class="product-name">Fresh Foam 680v7</span>
+                            <p class="product-category">Women's</p>
+                        </div>
+                        <div>
+                            <span class="product-price">$79.99</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img class="responsiveimg-h"
+                        src="https://nb.scene7.com/is/image/NB/wbeylb_nb_02_i?$pdpflexf2$&wid=464&hei=464">
+                    <div class="product-info">
+                        <div class="product-left">
+                            <span class="product-name">DynaSoft Beaya</span>
+                            <p class="product-category">Women's</p>
+                        </div>
+                        <div>
+                            <span class="product-price">$59.99</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img class="responsiveimg-h"
+                        src="https://nb.scene7.com/is/image/NB/wsbeylw_nb_02_i?$pdpflexf2$&wid=464&hei=464">
+                    <div class="product-info">
+                        <div class="product-left">
+                            <span class="product-name">Beaya Slip On</span>
+                            <p class="product-category">Women's</p>
+                        </div>
+                        <div>
+                            <span class="product-price">$59.99</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img class="responsiveimg-h"
+                        src="https://nb.scene7.com/is/image/NB/wvngobw5_nb_02_i?$pdpflexf2$&wid=464&hei=464">
+                    <div class="product-info">
+                        <div class="product-left">
+                            <span class="product-name">Fresh Foam X Vongo v5</span>
+                            <p class="product-category">Women's</p>
+                        </div>
+                        <div>
+                            <span class="product-price">$149.99</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img class="responsiveimg-h"
+                        src="https://nb.scene7.com/is/image/NB/wfcprlw3_nb_02_i?$pdpflexf2$&wid=464&hei=464">
+                    <div class="product-info">
+                        <div class="product-left">
+                            <span class="product-name">FuelCell Propel v3</span>
+                            <p class="product-category">Women's</p>
+                        </div>
+                        <div>
+                            <span class="product-price">$99.99</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="another-slick">
+        <div class="title-slick">
+            <h5>Recently Viewed</h5>
+        </div>
+        <!--Slider-->
+        <div class="slider-box">
+            <div class="slider">
+
+                <div class="item">
+                    <img class="responsiveimg-h"
+                        src="https://nb.scene7.com/is/image/NB/wmorlv3_nb_02_i?$pdpflexf2$&fmt=webp&wid=472&hei=472">
+                    <div class="product-info">
+                        <div class="product-left">
+                            <span class="product-name">Fresh Foam More v3</span>
+                            <p class="product-category">Women's</p>
+                        </div>
+                        <div>
+                            <span class="product-price">$164.99</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--===== FOOTER =====-->
+    <div class="sign-up-tab">
+        <label style="margin-right:1rem ;">Be the first to know about new arrivals</label>
+        <button class="sign-up-button">Sign up</button>
+    </div>
+
+    <div class="footer-flex-container">
+        <div class="footer">
+            <button class="footer-title">Help</button>
+            <div class="footer-sub-content">
+                <p>Contact Us</p>
+                <p>FAQ</p>
+                <p>Size Guide</p>
+                <p>Sale Exclusions</p>
+            </div>
+        </div>
+        <div class="footer">
+            <button class="footer-title">Shop</button>
+            <div class="footer-sub-content">
+                <p>Gift Cards</p>
+                <p>Order Status</p>
+                <p>Shipping Information</p>
+                <p>Returns & Exchanges</p>
+            </div>
+        </div>
+        <div class="footer">
+            <button class="footer-title">About Us</button>
+            <div class="footer-sub-content">
+                <p>Inside NB</p>
+                <p>Responsible Leadership</p>
+                <p>Our Purpose</p>
+                <p> Careers</p>
+                <p> Press Box</p>
+                <p> COVID-19 Information Center</p>
+            </div>
+        </div>
+        <div class="footer">
+            <button class="footer-title">For You</button>
+            <div class="footer-sub-content">
+                <p>Student Discount</p>
+                <p>Sign Up to Wear Test</p>
+                <p>Idea Submission</p>
+                <p>Affiliate Program</p>
+            </div>
+        </div>
+        <div class="about-company">
+            <img src="https://www.newbalance.com/on/demandware.static/-/Library-Sites-NBUS-NBCA/default/dw3de6aa04/images/homepage/footer/logo.svg"
+                width="60px">
+            <p>Independent since 1906, we empower people through sport and
+                craftsmanship to create positive change in communities around the world.</p>
+            <div class="social-media-icon">
+                <i class='bx bxl-instagram'></i>
+                <i class='bx bxl-facebook'></i>
+                <i class='bx bxl-twitter'></i>
+                <i class='bx bxl-youtube'></i>
+                <i class='bx bxl-pinterest-alt'></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-grey-box">
+        <span>New Balance family of brands</span>
+        <span>
+            <img style="height: 24px;"
+                src="https://www.newbalance.com/on/demandware.static/-/Library-Sites-NBUS-NBCA/default/dw4cb62335/images/homepage/footer/brine-logo.svg">
+        </span>
+        <span>
+            <img style="height: 24px;"
+                src="https://www.newbalance.com/on/demandware.static/-/Library-Sites-NBUS-NBCA/default/dw962ceddc/images/homepage/footer/warror.svg">
+        </span>
+        <span>
+            <img style="height: 24px;"
+                src="https://www.newbalance.com/on/demandware.static/-/Library-Sites-NBUS-NBCA/default/dwa49d224b/images/homepage/footer/teamsports-logo.svg">
+        </span>
+    </div>
+
+    <div class="footer-flex-container footer-additional-links">
+        <p>Privacy Policy</p>
+        <p> Website Terms & Conditions</p>
+        <p> myNB Rewards Terms</p>
+        <p>CA Supply Chains Act (SB 657) and Modern Slavery Act Statement</p>
+        <p>Do Not Sell My Personal Information</p>
+        <p class="copyright">Copyright 2020, New Balance.</p>
+    </div>
+
+    </div>
+
+    <!--===== MAIN JS =====-->
+    <script src="./assets/js/main.js"></script>
+
+    <!--Jquery CDN Link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        referrerpolicy="no-referrer"></script>
+    <!-- Slick JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script type="text/javascript">
+        $(".slider").slick({
+            centerMode: false,
+            infinite: true,
+            variableWidth: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            autoplay: false,
+            responsive: [
+                {
+                    breakpoint: 1000,
+                    settings: {
+                        centerMode: false,
+                        infinite: true,
+                        variableWidth: true,
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        dots: true,
+                        arrows: false,
+                        autoplay: false,
+                    }
+                }]
+
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(".product-slick").slick({
+            centerMode: true,
+            infinite: true,
+            dots: true,
+            arrows: false,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            responsive: [
+                {
+                    breakpoint: 1000,
+                    settings: {
+                        centerMode: false,
+                        infinite: true,
+                        dots: true,
+                        arrows: false,
+                        autoplay: false,
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                }
+            ]
+        });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $('collapse').collapse();
+    </script>
+
+</body>
+
+</html>

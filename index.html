@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon" href="./assets/img/logo.png" />
+
+  <!-- ===== CSS ===== -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+
+  <!-- ===== BOX ICONS ===== -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- ===== slick slider CSS ===== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--Jquery CDN Link-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+  <!-- Slick JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- booststrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+
+  <title>Athletic Footwear and Fitness Apparel - New Balance</title>
+</head>
+<style>
+  
+</style>
+
+<body>
+  <script src="./assets/js/main.js"></script>
+
+  <!--===== HEADER =====-->
+  <header class="header-1" id="header">
+    <nav class="nav bd-grid">
+
+        <a href="./index.html">
+            <img src="https://www.newbalance.com/on/demandware.static/-/Library-Sites-NBUS-NBCA/default/dw3de6aa04/images/homepage/footer/logo.svg"
+                style="width: 50px;height: 50px;">
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">New</a></li>
+                <li class="nav__item"><a href="#feature" class="nav__link">Men</a></li>
+                <li class="nav__item"><a href="#women" class="nav__link">Women</a></li>
+                <li class="nav__item"><a href="#men" class="nav__link">Kid</a></li>
+            </ul>
+        </div>
+
+        <div style="align-items: center;display:flex;justify-content: space-between; margin-left: 50px;">
+            <input type="search" placeholder="Search" style="padding: 5px;">
+            <i class='bx bx-user marginleft hide'></i>
+            <a href="#" class="marginleft hide">Login</a>
+            <p class="mg-3 hide">|</p>
+            <a href="#" class="marginleft hide">Join</a>
+            <i class='bx bx-cart-alt marginleft'></i>
+            <div class="nav__toggle" id="nav-toggle" onclick="toggle()">
+              <button class="menu marginleft" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
+                <svg width="40" height="40" viewBox="0 0 100 100">
+                  <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                  <path class="line line2" d="M 20,50 H 80" />
+                  <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                </svg>
+      
+            </div>
+        </div>
+
+    </nav>
+</header>
+
+  <!-- src="https://www.newbalance.com/dw/image/v2/AAGI_PRD/on/demandware.static/-/Library-Sites-NBUS-NBCA/default/dw3354bb0a/images/page-designer/2022/february/13605_Comp_A_Mobile.jpg?sw=991&amp;sfrm=jpg"
+   -->
+  <img src="./assets/img/13605_Comp_A_Mobile.jpg" alt="Group of people running on a bridge wearing NB gear "
+    class="image">
+
+  <div class="banner">
+    <h1>Move for you</h1>
+    <div class="red-line-1"></div>
+    <p>Save 25% on select clothing with code PRESDAY22 when you buy any shoe, now through February 25.</p>
+    <button class="shop-button-banner">Shop now</button>
+  </div>
+
+  <div class="best-sellers">
+    <h2>Best sellers</h2>
+    <div class="tab">
+      <button class="tabLinks" onclick="select_Category(event, 'Women')" id="defaultOpen">Women</button>
+      <button class="tabLinks" onclick="select_Category(event, 'Men')">Men</button>
+      <button class="tabLinks" onclick="select_Category(event, 'Kid')">Kid</button>
+
+    </div>
+
+    <div id="Women" class="tabContent">
+      <!--Slider-->
+      <div class="slider-box">
+        <div class="slider">
+          <a href="./shop.html" style="text-decoration:none;color: black;">
+            <div class="item">
+              <img class="responsiveimg"
+                src="./assets/img/women1.png">
+              <div class="product-info">
+                <div class="product-left">
+                  <span class="product-name">Fresh Foam Roav v2</span>
+                  <p class="product-category">Women's</p>
+                </div>
+                <div>
+                  <span class="product-price">$69.99 - $84.99</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <div class="item">
+            <img class="responsiveimg"
+            src="./assets/img/women2.jfif">
+            <div class="product-info">
+              <div class="product-left">
+                <span class="product-name">NB Heat Tight</span>
+                <p class="product-category">Women's</p>
+              </div>
+              <div>
+                <span class="product-price">$89.99</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="responsiveimg"
+            src="./assets/img/women3.jfif">
+            <div class="product-info">
+              <div class="product-left">
+                <span class="product-name">NB Heatloft Athletic Jacket</span>
+                <p class="product-category">Women's</p>
+              </div>
+              <div>
+                <span class="product-price">$119.99</span>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img class="responsiveimg"
+            src="./assets/img/women4.png">
+            <div class="product-info">
+              <div class="product-left">
+                <span class="product-name">NB Heatloft Pullover/span>
+                  <p class="product-category">Women's</p>
+              </div>
+              <div>
+                <span class="product-price">$84.99</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="responsiveimg"
+            src="./assets/img/women5.png">
+            <div class="product-info">
+              <div class="product-left">
+                <span class="product-name">NB Heatloft Tunic</span>
+                <p class="product-category">Women's</p>
+              </div>
+              <div>
+                <span class="product-price">$94.99</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="shop-button-best-sellers">Shop women</button>
+    </div>
+
+    <div id="Men" class="tabContent">
+      <!--Slider-->
+      <div class="slider-box">
+        <div class="slider">
+
+          <div class="item">
+            <img class="responsiveimg"
+            src="./assets/img/men1.png">
+            <div class="product-info">
+              <div class="product-left">
+                <span class="product-name">Fresh Foam Roav v2</span>
+                <p class="product-category">Men's</p>
+              </div>
+              <div>
+                <span class="product-price">$84.99</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="responsiveimg"
+            src="./assets/img/men2.png">
+            <div class="product-info">
+              <div class="product-left">
+                <span class="product-name">NB Essentials Pullover Hoodie</span>
+                <p class="product-category">Men's</p>
+              </div>
+              <div>
+                <span class="product-price">$44.99 - $59.99</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="responsiveimg"
+            src="./assets/img/men3.png">
+            <div class="product-info">
+              <div class="product-left">
+                <span class="product-name">FuelCell 4040 v6 Metal</span>
+                <p class="product-category">Men's</p>
+              </div>
+              <div>
+                <span class="product-price">$104.99</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="responsiveimg"
+            src="./assets/img/men4.png">
+            <div class="product-info">
+              <div class="product-left">
+                <span class="product-name">NB Essentials Stacked Logo Sweatpant</span>
+                <p class="product-category">Men's</p>
+              </div>
+              <div>
+                <span class="product-price">$59.99</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="responsiveimg"
+            src="./assets/img/men5.png">
+            <div class="product-info">
+              <div class="product-left">
+                <span class="product-name">NB Heat Grid Half Zip</span>
+                <p class="product-category">Men's</p>
+              </div>
+              <div>
+                <span class="product-price">$89.99</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="shop-button-best-sellers">Shop men</button>
+    </div>
+
+    <div id="Kid" class="tabContent">
+      <!--Slider-->
+      <div class="slider-box">
+        <div class="slider">
+
+          <div class="item">
+            <img class="responsiveimg"
+            src="./assets/img/kid1.png">
+            <div class="product-info">
+              <div class="product-left">
+                <span class="product-name">990v5</span>
+                <p class="product-category"> Kids'</p>
+              </div>
+              <div>
+                <span class="product-price">$109.99</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="responsiveimg"
+            src="./assets/img/kid2.png">
+            <div class="product-info">
+              <div class="product-left">
+                <span class="product-name">NEW-B Hook & Loop</span>
+                <p class="product-category">Kids'</p>
+              </div>
+              <div>
+                <span class="product-price">$39.99</span>
+              </div>
+            </div>
+          </div>
+
+        
+          <div class="item">
+            <img class="responsiveimg"
+            src="./assets/img/kid3.png">
+            <div class="product-info">
+              <div class="product-left">
+                <span class="product-name">4040 v6 Rubber Molded</span>
+                <p class="product-category">Kids'</p>
+              </div>
+              <div>
+                <span class="product-price">$49.99</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="responsiveimg"
+            src="./assets/img/kid4.png">
+            <div class="product-info">
+              <div class="product-left">
+                <span class="product-name">880v11</span>
+                <p class="product-category">Kids'</p>
+              </div>
+              <div>
+                <span class="product-price">$64.99 - $69.99</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="responsiveimg"
+            src="./assets/img/kid5.png">
+            <div class="product-info">
+              <div class="product-left">
+                <span class="product-name">680v6 Bungee</span>
+                <p class="product-category">Kids'</p>
+              </div>
+              <div>
+                <span class="product-price">$44.99 - $54.99</span>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      
+      <button class="shop-button-best-sellers">Shop kid</button>
+    </div>
+  </div>
+
+
+  <div class="flex-container">
+    <div class="flex-item-left">
+      <img src="./assets/img/13521_Comp_E_Image1.jpg" width="100%">
+      <div class="section-brand">
+        <h3>The Fresh Foam X 860v12.</h3>
+        <p>Pinnacle cushioning and essential stability, for the daily runner.</p>
+        <button class="shop-button">Shop now</button>
+      </div>
+    </div>
+    <div class="flex-item-right">
+      <img src="./assets/img/13523_Comp_E_Image1.jpg" width="100%">
+      <div class="section-brand">
+        <h3>At any speed.</h3>
+        <p>Meet your new go-to gear.</p>
+        <button class="shop-button">Shop Fresh Foam Roav </button>
+        <button class="shop-button">Shop NB Essentials </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="recommend">
+    <h3>Recommended for you</h3>
+
+    <div class="slider-box">
+      <div class="slider">
+        <a href="./shop.html" >
+          <div class="item">
+            <img class="responsiveimg"
+            src="./assets/img/women1.png">
+            <div class="product-info">
+              <div class="product-left">
+                <span class="product-name">Fresh Foam Roav v2</span>
+                <p class="product-category">Women's</p>
+              </div>
+              <div>
+                <span class="product-price">$69.99 - $84.99</span>
+              </div>
+            </div>
+          </div>
+        </a>
+        <div class="item">
+          <img class="responsiveimg"
+          src="./assets/img/rec2.png">
+          <div class="product-info">
+            <div class="product-left">
+              <span class="product-name">NB Heatloft Tunic</span>
+              <p class="product-category">Women's</p>
+            </div>
+            <div>
+              <span class="product-price">$94.99</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img class="responsiveimg"
+          src="./assets/img/rec3.png">
+          <div class="product-info">
+            <div class="product-left">
+              <span class="product-name">574</span>
+              <p class="product-category">Women's</p>
+            </div>
+            <div>
+              <span class="product-price">$74.99</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img class="responsiveimg"
+          src="./assets/img/rec4.png">
+          <div class="product-info">
+            <div class="product-left">
+              <span class="product-name">DynaSoft Nitrel v4</span>
+              <p class="product-category">Men's</p>
+            </div>
+            <div>
+              <span class="product-price">$54.99</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img class="responsiveimg"
+          src="./assets/img/rec5.png">
+          <div class="product-info">
+            <div class="product-left">
+              <span class="product-name">574</span>
+              <p class="product-category">Women's</p>
+            </div>
+            <div>
+              <span class="product-price">$74.99</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img class="responsiveimg"
+          src="./assets/img/rec6.png">
+          <div class="product-info">
+            <div class="product-left">
+              <span class="product-name">574</span>
+              <p class="product-category">Women's</p>
+            </div>
+            <div>
+              <span class="product-price">$74.99 - $84.99</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+
+  <div class="sign-up-tab">
+    <label style="margin-right:1rem ;">Be the first to know about new arrivals</label>
+    <button class="sign-up-button">Sign up</button>
+  </div>
+
+  <div class="footer-flex-container">
+    <div class="footer">
+      <button class="footer-title">Help</button>
+      <div class="footer-sub-content">
+        <p>Contact Us</p>
+        <p>FAQ</p>
+        <p>Size Guide</p>
+        <p>Sale Exclusions</p>
+      </div>
+    </div>
+    <div class="footer">
+      <button class="footer-title">Shop</button>
+      <div class="footer-sub-content">
+        <p>Gift Cards</p>
+        <p>Order Status</p>
+        <p>Shipping Information</p>
+        <p>Returns & Exchanges</p>
+      </div>
+    </div>
+    <div class="footer">
+      <button class="footer-title">About Us</button>
+      <div class="footer-sub-content">
+        <p>Inside NB</p>
+        <p>Responsible Leadership</p>
+        <p>Our Purpose</p>
+        <p> Careers</p>
+        <p> Press Box</p>
+        <p> COVID-19 Information Center</p>
+      </div>
+    </div>
+    <div class="footer">
+      <button class="footer-title">For You</button>
+      <div class="footer-sub-content">
+        <p>Student Discount</p>
+        <p>Sign Up to Wear Test</p>
+        <p>Idea Submission</p>
+        <p>Affiliate Program</p>
+      </div>
+    </div>
+    <div class="about-company">
+      <img
+        src="https://www.newbalance.com/on/demandware.static/-/Library-Sites-NBUS-NBCA/default/dw3de6aa04/images/homepage/footer/logo.svg"
+        width="60px">
+      <p>Independent since 1906, we empower people through sport and
+        craftsmanship to create positive change in communities around the world.</p>
+      <div class="social-media-icon">
+        <i class='bx bxl-instagram'></i>
+        <i class='bx bxl-facebook'></i>
+        <i class='bx bxl-twitter'></i>
+        <i class='bx bxl-youtube'></i>
+        <i class='bx bxl-pinterest-alt'></i>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-grey-box">
+    <span>New Balance family of brands</span>
+    <span>
+      <img style="height: 24px;"
+        src="https://www.newbalance.com/on/demandware.static/-/Library-Sites-NBUS-NBCA/default/dw4cb62335/images/homepage/footer/brine-logo.svg">
+    </span>
+    <span>
+      <img style="height: 24px;"
+        src="https://www.newbalance.com/on/demandware.static/-/Library-Sites-NBUS-NBCA/default/dw962ceddc/images/homepage/footer/warror.svg">
+    </span>
+    <span>
+      <img style="height: 24px;"
+        src="https://www.newbalance.com/on/demandware.static/-/Library-Sites-NBUS-NBCA/default/dwa49d224b/images/homepage/footer/teamsports-logo.svg">
+    </span>
+  </div>
+
+  <div class="footer-flex-container footer-additional-links">
+    <p>Privacy Policy</p>
+    <p> Website Terms & Conditions</p>
+    <p> myNB Rewards Terms</p>
+    <p>CA Supply Chains Act (SB 657) and Modern Slavery Act Statement</p>
+    <p>Do Not Sell My Personal Information</p>
+    <p class="copyright">Copyright 2020, New Balance.</p>
+  </div>
+
+  </div>
+
+  
+
+
+
+
+  <script >
+    document.getElementById("defaultOpen").click();
+    $(".slider").slick({
+      centerMode: false,
+      infinite: true,
+      variableWidth: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: true,
+      autoplay: false,
+      responsive: [
+        {
+          breakpoint: 1000,
+          settings: {
+            centerMode: false,
+            infinite: true,
+            variableWidth: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            arrows: false,
+            autoplay: false,
+          }
+        }]
+
+    });
+    $(window).on('resize orientationchange', function () {
+      $('.slider').slick('resize');
+    });
+  </script>
+
+
+</body>
+
+</html>
